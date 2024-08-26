@@ -1,0 +1,186 @@
+body{
+    background-color: #03346E;
+}
+h1{
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+}
+#imagen-logo-cdmx{
+    width: 150px;
+    height: 30px;
+}
+.row{
+    height: 1050px;
+     /* Cambia 'ruta/a/tu-imagen.jpg' por la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el elemento */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; 
+}
+.fila-imagen-uno{
+    background-image: url('./Aseets/city-5281469_1280.webp');
+}
+.fila-imagen-dos{
+    background-image: url('./Aseets/national-palace-7006222_1280.webp');
+
+}
+.fila-imagen-tres{
+    background-image: url('./Aseets/palace-7393850_1280.webp');
+
+}
+.fila-imagen-cuatro{
+    background-image: url('./Aseets/road-7069045_1280.webp');
+
+}
+.fila-imagen-cinco{
+    background-image: url('./Aseets/metrobus-3768947_1280.webp');
+
+}
+.fila-imagen-seis{
+    background-image: url('./Aseets/CDMXVISITA.webp');
+
+}
+.fila-uno-informes{
+    background-image: url(./Aseets/cdmx.webp);
+}
+.fila-dos-informes{
+    background-image: url(./Aseets/photo1jpg\ \(1\).webp);
+}
+.fila-tres-informes{
+    background-image: url(./Aseets/R\ \(1\).webp);
+}
+.fila-cuatro-informes{
+    background-image: url(./Aseets/photo1jpg.webp);
+}
+.fila-cinco-informes{
+    background-image: url(./Aseets/road-7069045_1280.webp);
+}
+
+
+#texto-imagen-uno{
+    background-color:rgb(255, 179, 0);
+    text-align: justify;
+    color: white;
+}
+#texto-imagen-dos{
+    background-color: rgb(22, 202, 22);
+    text-align: justify;
+    color: white;
+
+}
+#texto-imagen-tres{
+    background-color: rgb(255, 5, 93);
+    text-align: justify;
+    color: white;
+
+}
+#texto-imagen-cuatro{
+    background-color: blueviolet;
+    text-align: justify;
+    color: white;
+}
+#texto-imagen-cinco{
+    background-color: rgb(8, 0, 232);
+    color: white;
+}
+#texto-imagen-seis{
+    background-color: rgb(5, 147, 172);
+    color: white;
+}
+.titulo-imagen{
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 45px;
+    text-align:end;
+}
+
+#btnSubir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+.btn-outline-light{
+    margin-left: 400px;
+    font-size: 30px;
+}
+/*Pagina Informes*/
+.titulo-museo, .texto-dos-informes{
+    background-color: brown;
+
+}
+.titulo-museo{
+    text-align: center;
+}
+.titulo-castillo, .texto-tres-informes{
+    background-color: blue;
+}
+.titulo-castillo{
+    text-align: center;
+}
+.titulo-xochi, .texto-cuatro-informes{
+    background-color: aqua;
+}
+.titulo-xochi{
+    text-align: center;
+}
+.titulo-dudass{
+    background-color: aqua;
+}
+.titulo-1-inicio{
+    position: relative;
+    top: 170px;
+}
+#texto-uno-inicio {
+    position: relative;
+    top: 170px;
+}
+
+
+#imagen-visita{
+    background-image:url(./Aseets/revolution-5877180_1280.webp);
+}
+#danosOpinion{
+    position: relative;
+    top: -130px;
+    font-family: "PT Serif", serif;
+}
+.form-control::placeholder{
+    text-align: center;
+}
+
+.MNA{
+    background-color: rgb(22, 202, 22, 0.5);
+    
+}
+.CDC{
+    background-color: rgba(128, 0, 128, 0.5);
+}
+.XH{
+    background-color: rgb(255, 5, 93, 0.5);
+}
+.bndd{
+    height: 400px;
+}
+.infM{
+    color: white;
+}
+
+.texto-uno-informes {
+    background-color: rgba(22, 202, 202, 0.5);
+}
+#infoDeta{
+    margin-bottom: 100px;
+    background-color: rgba(118, 45, 131, 0.5);
+}
+#im-cdmx-mapa{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+}
